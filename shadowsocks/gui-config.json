@@ -1,10 +1,10 @@
 {
   "configs": [
     {
-      "server": "65.49.133.79",
-      "server_port": 13598,
+      "server": "104.224.144.133",
+      "server_port": 13362,
       "password": "ZjYzOWQ2NW",
-      "method": "aes-256-cfb",
+      "method": "camellia-256-cfb",
       "plugin": "",
       "plugin_opts": "",
       "plugin_args": "",
@@ -16,11 +16,11 @@
   "index": 0,
   "global": false,
   "enabled": true,
-  "shareOverLan": false,
+  "shareOverLan": true,
   "isDefault": false,
   "localPort": 1080,
   "portableMode": true,
-  "pacUrl": null,
+  "pacUrl": "https://raw.githubusercontent.com/symphony2014/resources/master/shadowsocks/pac.txt",
   "useOnlinePac": false,
   "secureLocalPac": true,
   "availabilityStatistics": false,
@@ -43,8 +43,8 @@
     "proxyTimeout": 3
   },
   "hotkey": {
-    "SwitchSystemProxy": "",
-    "SwitchSystemProxyMode": "",
+    "SwitchSystemProxy": "Ctrl+G",
+    "SwitchSystemProxyMode": "Ctrl+U",
     "SwitchAllowLan": "",
     "ShowLogs": "",
     "ServerMoveUp": "",
